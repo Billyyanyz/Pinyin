@@ -16,14 +16,14 @@ github地址：[https://github.com/Billyyanyz/Pinyin](https://github.com/Billyya
 * `tester.py`：利用测试集测试模型准确率
 * `src/`：源代码和语料资源文件夹
 	* `src/original_material/`：存放原始语料的文件夹
-	* `src/processed_materal/`：存放处理后语料的文件夹，其中文件名与原始语料一一对应
-	* `src/stats/`：存放统计数据的文件夹
-	* `src/word_range.py`：设置汉字范围
-	* `src/preprocessor.py`：预处理原始语料
-	* `src/analyzer.py`：分析处理后语料并统计词频
-	* `src/num_to_freq_translater.py`：将词频翻译为转移概率
-	* `src/HMM_pinyin.py`：实现的HMM模型
-	* `src/Const.py`：存放过程中需要用到的常数
+	* `src/processed_materal/`：存放处理后语料的文件夹，其中文件名与原始语料一一对应
+	* `src/stats/`：存放统计数据的文件夹
+	* `src/word_range.py`：设置汉字范围
+	* `src/preprocessor.py`：预处理原始语料
+	* `src/analyzer.py`：分析处理后语料并统计词频
+	* `src/num_to_freq_translater.py`：将词频翻译为转移概率
+	* `src/HMM_pinyin.py`：实现的HMM模型
+	* `src/Const.py`：存放过程中需要用到的常数
 * `data/`：测试数据文件夹（其中input.txt，output.txt如题目要求，test.txt按照测试集的格式即可调用tester.py进行测试）
 
 ##依赖
