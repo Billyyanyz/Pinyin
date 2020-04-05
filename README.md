@@ -13,6 +13,7 @@ github地址：[https://github.com/Billyyanyz/Pinyin](https://github.com/Billyya
 ## 目录结构
 * `pinyin.py`：主文件，直接运行即可得到结果
 * `train.py`：训练模型的文件，需要带参数运行
+* `tester.py`：利用测试集测试模型准确率
 * `src/`：源代码和语料资源文件夹
 	* `src/original_material/`：存放原始语料的文件夹
 	* `src/processed_materal/`：存放处理后语料的文件夹，其中文件名与原始语料一一对应
@@ -23,7 +24,6 @@ github地址：[https://github.com/Billyyanyz/Pinyin](https://github.com/Billyya
 	* `src/num_to_freq_translater.py`：将词频翻译为转移概率
 	* `src/HMM_pinyin.py`：实现的HMM模型
 	* `src/Const.py`：存放过程中需要用到的常数
-	* `src/tester.py`：利用测试集测试模型准确率
 * `data/`：测试数据文件夹（其中input.txt，output.txt如题目要求，test.txt按照测试集的格式即可调用tester.py进行测试）
 
 ##依赖
@@ -64,5 +64,5 @@ tan tan jian jian neng neng fou fou ding ding lv
 
 输入的拼音要求为一般标准注音，因此若需输出“略”，应输入`lve`而非`lue`，“虐”亦然。
 
-由于模型训练耗时较长，我们没有在主程序中设置统一的模型训练接口。
-不过如果确有必要训练模型，可以运行`train.py`进行不同类型的训练，具体操作方式详见实验报告。
+由于模型训练耗时较长，我们没有在主程序中设置统一的模型训练接口，而是另起程序统一这些训练步骤。
+如果确有必要训练模型，可以运行`train.py`进行不同类型的训练，具体操作方式详见实验报告。
