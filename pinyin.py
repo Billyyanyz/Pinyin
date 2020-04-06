@@ -9,7 +9,7 @@ def run_main():
 		for line in lines:
 			if line[-1] == "\n":
 				line = line[:-1]
-			pinyin_lists.append(line.split(" "))
+			pinyin_lists.append(line.lower().split(" "))
 		answer_lists = HMM_pinyin.HMM(pinyin_lists)
 	output_lists = []
 	for answer in answer_lists:

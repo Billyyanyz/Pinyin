@@ -16,6 +16,7 @@ github地址：[https://github.com/Billyyanyz/Pinyin](https://github.com/Billyya
 * `tester.py`：利用测试集测试模型准确率
 * `src/`：源代码和语料资源文件夹
 	* `src/original_material/`：存放原始语料的文件夹
+		* `src/original_material/mat_address_list.txt`：储存所需训练的语料文件名的txt文件
 	* `src/processed_materal/`：存放处理后语料的文件夹，其中文件名与原始语料一一对应
 	* `src/stats/`：存放统计数据的文件夹
 	* `src/word_range.py`：设置汉字范围

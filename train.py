@@ -13,6 +13,8 @@ if __name__ == "__main__":
 		print("  add_new              add new materials to the existed stats(require address list)")
 		print("  reanalyze            reanalyze existing materials (if triple_character_bound modified)")
 		print("  translate            interpret stats into possibility matrices (if zero_possibility_bound modified)")
+		print("  run                  input pinyin sequences and output chinese character sequences")
+		print("  test                 input pinyin and chinese character sequences and output a file on accuracy")
 	elif len(sys.argv) == 2:
 
 		if sys.argv[1] == "run_all":
